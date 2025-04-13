@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Braba :)</h1>
+    </header>
+    <main>
+        <div><h1 id="resultado" class="calculadora">0</h1></div>
+
+        <div id="botoes" class="calculadora">
+            <button type="button" onclick="calculo('add','1')">1</button>
+            <button type="button" onclick="calculo('add','2')">2</button>
+            <button type="button" onclick="calculo('add','3')">3</button><br>
+            <button type="button" onclick="calculo('add','4')">4</button>
+            <button type="button" onclick="calculo('add','5')">5</button>
+            <button type="button" onclick="calculo('add','6')">6</button><br>
+            <button type="button" onclick="calculo('add','7')">7</button>
+            <button type="button" onclick="calculo('add','8')">8</button>
+            <button type="button" onclick="calculo('add','9')">9</button><br>
+            <button type="button" onclick="calculo('add','0')">0</button><br><br>
+
+            <button type="button" onclick="calculo('somar')">+</button>
+            <button type="button" onclick="calculo('subtrair')">-</button>
+            <button type="button" onclick="calculo('multiplicar')">*</button>
+            <button type="button" onclick="calculo('dividir')">/</button><br><br>
+
+            <button type="button" onclick="calculo('calcular')">Calcular</button>
+            <button type="button" onclick="calculo('limpar')">Limpar</button>
+        </div>
+
+    </main>
+</body>
+</html>
